@@ -8,11 +8,24 @@
     <link rel="stylesheet" href="navBarStyle.css">
 </head>
 <body>
-    <div class="topnav" id="myTopnav">
-        <a href="homePage.html">Home</a>
-        <a href="aboutUsPage.html">About Us</a>
-        <a href="ourMissionPage.html">Our Mission</a>
-        <a href="contactUsPage.html" class="active">Contact Us</a>
-      </div>
+    <header>
+        <nav>
+
+            <div class="logo">
+                <a href="homePage.html">TranquiltyAI</a>
+            </div>
+            <ul id="menu">
+                <li><a href="aboutUsPage.html">About Us</a></li>
+                <li><a href="ourMissionPage.html">Our Mission</a></li>
+                <li><a href="contactUsPage.html" class="active">Contact Us</a></li>
+            </ul>
+
+            <div class="menuicon">
+                <img src="menu.png" onclick="toggle()" alt="">
+            </div>
+        </nav>
+    </header>
+
+    <script src="navBar.js"></script>
 </body>
 </html>

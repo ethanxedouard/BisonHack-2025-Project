@@ -6,13 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="navBarStyle.css">
+    <link rel="stylesheet" href="ourMissionStyle.css">
 </head>
 <body>
-    <div class="topnav" id="myTopnav">
-        <a href="homePage.html">Home</a>
-        <a href="aboutUsPage.html">About Us</a>
-        <a href="ourMissionPage.html" class="active">Our Mission</a>
-        <a href="contactUsPage.html">Contact Us</a>
-      </div>
+    <header>
+        <nav>
+
+            <div class="logo">
+                <a href="homePage.html">TranquiltyAI</a>
+            </div>
+            <ul id="menu">
+                <li><a href="aboutUsPage.html">About Us</a></li>
+                <li><a href="ourMissionPage.html" class="active">Our Mission</a></li>
+                <li><a href="contactUsPage.html">Contact Us</a></li>
+            </ul>
+
+            <div class="menuicon">
+                <img src="menu.png" onclick="toggle()" alt="">
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="about">
+        <img src="dave-hoefler-i0K3-IHiXYI-unsplash.jpg" alt="Serene Picture" class="hero-img"/>
+        <div class="bio">
+            <h2 class="bio-title">Our Mission</h2>
+            <p class="bio-text">
+                Our mission is rooted in the belief that everyone deserves access to truth, support, and guidance — no matter where they are in their mental health journey.
+            </p>
+        </div>
+    </section>
+
+
+    <script src="navBar.js"></script>
 </body>
 </html>

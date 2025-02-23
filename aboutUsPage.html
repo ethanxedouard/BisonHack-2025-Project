@@ -6,13 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="navBarStyle.css">
+    <link rel="stylesheet" href="aboutUsPage.css">
 </head>
 <body>
-    <div class="topnav" id="myTopnav">
-        <a href="homePage.html">Home</a>
-        <a href="aboutUsPage.html" class="active">About Us</a>
-        <a href="ourMissionPage.html">Our Mission</a>
-        <a href="contactUsPage.html">Contact Us</a>
-      </div>
+    <header>
+        <nav>
+
+            <div class="logo">
+                <a href="homePage.html">TranquiltyAI</a>
+            </div>
+            <ul id="menu">
+                <li><a href="aboutUsPage.html" class="active">About Us</a></li>
+                <li><a href="ourMissionPage.html">Our Mission</a></li>
+                <li><a href="contactUsPage.html">Contact Us</a></li>
+            </ul>
+
+            <div class="menuicon">
+                <img src="menu.png" onclick="toggle()" alt="">
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="about">
+        <img src="dave-hoefler-i0K3-IHiXYI-unsplash.jpg" alt="Serene Picture" class="hero-img"/>
+        <div class="bio">
+            <h2 class="bio-title">About Us</h2>
+            <p class="bio-text">
+                At TranquilAI, we are committed to transforming the way we approach mental health support. 
+                By harnessing the power of Artificial Intelligence, we provide compassionate, evidence-based resources 
+                to help individuals facing mental health challenges.
+            </p>
+        </div>
+    </section>
+
+    <script src="navBar.js"></script>
 </body>
 </html>
